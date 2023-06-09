@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+}
+.container {
+  border: 1px solid black;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+.header {
+}
+.header__title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pic {
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#canvas {
+  border: 1px solid black;
+  /* width: 300px; */
+  /* height: 300px; */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.task {
+  margin-top: 20px;
+}
+.word {
+  border: 1px solid black;
+  display: flex;
+}
+.answer {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+}
+
+.answer h2 {
+  font-size: 30px;
+  margin: auto;
+}
+.hidden {
+  display: none;
+}
+.symbols {
+  width: 500px;
+  height: 25vh;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.symbosl_1 {
+  margin: 5px 0;
+}
+.char {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 2px;
+}
